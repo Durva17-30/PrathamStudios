@@ -31,3 +31,15 @@
     font-size: 16px;
     color: #212ea0;
 }
+
+/* Media Queries */
+@media (max-width: 850px){
+    .services{
+        flex-direction: column;
+        text-align: center;
+    }
+    .service{
+        margin: 20px;
+        flex-basis: 100%;
+    }
+}
