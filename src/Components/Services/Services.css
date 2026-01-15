@@ -1,0 +1,33 @@
+.services{
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.service{
+    flex-basis: 31%;
+}
+
+.service h1{
+    max-width: 300px;
+    margin: 0px 0px 10px;
+    font-size: 24px;
+    align-items: center;
+    color: #555;
+}
+
+.caption{
+    border-radius: 10px;
+    position: inherit;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #212ea0;
+}
